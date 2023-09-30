@@ -420,6 +420,49 @@ color: #4D5AE5;
     text-decoration: none;
 }
 
+.container-footer {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
+.title-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.icons-soc-footer {
+    width: 40px;
+    height: 40px;
+}
+
+.soc-link-footer {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.soc-link-footer:hover,
+.soc-link-footer:focus {
+background-color: #31d0aa;
+}
+
+.icon-soc-footer {
+    fill: #f4f4fd;
+}
 
 .main-text {
     font-family: Roboto, sans-serif;
