@@ -29,6 +29,29 @@
  
 }
 
+.nav-links .link-one {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-links .link-one::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .nav-links .link {
     color: #2E2F42;
     font-size: 16px;
@@ -44,6 +67,7 @@
     background-color: #FFF;
     border-bottom: 1px solid #E7E9FC;
     padding: 24px 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 
 }
@@ -112,6 +136,7 @@ display: inline-flex;
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -155,6 +180,8 @@ gap: 24px;
     background-image: linear-gradient(to bottom,  rgba(46, 47, 66, 0.70) , rgba(46, 47, 66, 0.70)), url(/images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
+    background-position: center;
 
 }
 
@@ -380,7 +407,7 @@ h1, h2, h3, h4, h5, h6, p {
 width: 1158px;
 margin: 0 auto;
 padding-left: 15px;
-    padding-right: 15px;
+padding-right: 15px;
 
 }
 
@@ -389,22 +416,25 @@ padding-left: 15px;
 .icon-advantages {
    
 width: 264px;
-    height: 112px;
-    border-radius: 4px;
-        border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-        background-color: var(--CLOUD, #F4F4FD);
-        padding: 24px 100px 24px 100px;
-        margin-bottom: 8px;
+height: 112px;
+border-radius: 4px;
+ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+background-color: var(--CLOUD, #F4F4FD);
+padding: 24px 100px 24px 100px;
+ margin-bottom: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .icons .icons-soc {
-    background-color: #4D5AE5;
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        width: 40px;
-            height: 40px;
+background-color: #4D5AE5;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 40px;
+height: 40px;
         
 }
 
