@@ -492,8 +492,9 @@ justify-content: center;
 align-items: center;
 
 }
-.soc-link:hover,
-.soc-link:focus {
+
+.icons-soc .soc-link:hover,
+.icons-soc .soc-link:focus {
 background-color:#404bbf;
 }
 
